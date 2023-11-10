@@ -1,3 +1,5 @@
 data/**
 .env/**
 .ipynb_checkpoints
+.poetry/**
+poetry.lock
