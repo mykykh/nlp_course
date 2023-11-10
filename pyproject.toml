@@ -6,8 +6,20 @@ authors = ["mykykh <49101849+mykykh@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.13"
 jupyterlab = "^4.0.8"
+pandas = "^2.1.2"
+matplotlib = "^3.8.1"
+nltk = "^3.8.1"
+scikit-learn = "^1.3.2"
+torch = ">=2.0.0,!=2.0.1,!=2.1.0"
+transformers = "^4.35.0"
+sentence-transformers = "^2.2.2"
+bertopic = "^0.15.0"
+wordcloud = "^1.9.2"
+protobuf = "^4.25.0"
+umap-learn = "^0.5.4"
+emoji = "^2.8.0"
 
 
 [build-system]
