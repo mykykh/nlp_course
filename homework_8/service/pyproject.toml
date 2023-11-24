@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "service"
+version = "0.1.0"
+description = ""
+authors = ["mykykh <49101849+mykykh@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+transformers = "^4.35.0"
+emoji = "^2.8.0"
+onnxruntime = "^1.16.3"
+optimum = "^1.14.1"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+onnx = "^1.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

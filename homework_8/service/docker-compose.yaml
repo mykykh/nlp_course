@@ -1,0 +1,15 @@
+version: "3.0"
+services:
+  location-detection:
+    image: location-detection-service:latest
+    container_name: location-detection-service-latest
+    build:
+      context: .
+    ports:
+      - 8088:80
+    environment:
+      - LOG_LEVEL=info
+      - TIMEOUT=1200
+      - MAX_WORKERS=1
+    logging:
+      driver: json-file

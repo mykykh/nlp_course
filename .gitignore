@@ -1,5 +1,5 @@
-data/**
+**/data/**
 .env/**
 .ipynb_checkpoints
-.poetry/**
-poetry.lock
+**/.poetry/**
+**/__pycache__/**
